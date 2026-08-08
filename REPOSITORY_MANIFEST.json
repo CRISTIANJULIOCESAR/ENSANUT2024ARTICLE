@@ -1,0 +1,26 @@
+{
+  "project": "ENSANUT_HbA1c_explainable_communities",
+  "packaged_date": "2026-08-07",
+  "input_files_expected": [
+    "data/input/ENSANUT_2024_mx.csv",
+    "data/input/ENSANUT_2024.csv"
+  ],
+  "input_data_included": false,
+  "notebook_count": 9,
+  "user_supplied_notebooks_preserved_byte_for_byte": true,
+  "canonical_pipeline": [
+    "notebooks/01_modeling_clustering.ipynb",
+    "notebooks/02_naive_bayes_followup.ipynb"
+  ],
+  "notebooks": [
+    "01.1_supplementary_stability_and_glucose_ablation.ipynb",
+    "01_modeling_clustering.ipynb",
+    "02.1_naive_bayes_followup_binary_xgboost_no_glucose_fixed.ipynb",
+    "02.2_naive_bayes_followup_raw_xgboost_no_glucose_no_missing_categories.ipynb",
+    "02_clusters_fusionados.ipynb",
+    "02_clusters_fusionados_sin_GLU_SUERO.ipynb",
+    "02_naive_bayes_followup.ipynb",
+    "03_naive_bayes_filtrado_vs_sin_filtro_no_cv.ipynb",
+    "04_naive_bayes_best_bins.ipynb"
+  ]
+}
